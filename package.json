@@ -1,25 +1,29 @@
 {
-  "name": "mern_shopping_cart",
-  "version": "1.0.0",
-  "description": "Shopping cart demo with ReactJS and Heroku",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jussaurabh/mern_shopping_cart.git"
-  },
-  "author": "Saurabh Pawar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jussaurabh/mern_shopping_cart/issues"
-  },
-  "homepage": "https://github.com/jussaurabh/mern_shopping_cart#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "concurrently": "^4.1.1",
-    "express": "^4.17.1",
-    "mongoose": "^5.6.5"
-  }
+	"name": "mern_shopping_cart",
+	"version": "1.0.0",
+	"description": "Shopping cart demo with ReactJS and Heroku",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jussaurabh/mern_shopping_cart.git"
+	},
+	"author": "Saurabh Pawar",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jussaurabh/mern_shopping_cart/issues"
+	},
+	"homepage": "https://github.com/jussaurabh/mern_shopping_cart#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"concurrently": "^4.1.1",
+		"express": "^4.17.1",
+		"mongoose": "^5.6.5"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
 }
