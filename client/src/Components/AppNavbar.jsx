@@ -7,7 +7,7 @@ function AppNavbar() {
 			<div className="container">
 				<div className="nav-wrapper">
 					<NavLink to="/" className="brand-logo">
-						Shopping Cart
+						Shopping List
 					</NavLink>
 				</div>
 			</div>
